@@ -1,0 +1,507 @@
+{
+
+    "users": [
+   
+     {
+   
+      "id": 1,
+   
+      "username": "john_doe",
+   
+      "bio": "Software Developer at XYZ",
+   
+      "location": "New York, USA",
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "coverPhoto": "https://via.placeholder.com/1200x300"
+   
+     },
+   
+     {
+   
+      "id": 2,
+   
+      "username": "jane_smith",
+   
+      "bio": "Creative Director at ABC Co.",
+   
+      "location": "Los Angeles, CA",
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "coverPhoto": "https://via.placeholder.com/1200x300"
+   
+     },
+   
+     {
+   
+      "id": 3,
+   
+      "username": "mike_jones",
+   
+      "bio": "Entrepreneur and Investor",
+   
+      "location": "Chicago, IL",
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "coverPhoto": "https://via.placeholder.com/1200x300"
+   
+     },
+   
+     {
+   
+      "id": 4,
+   
+      "username": "alice_williams",
+   
+      "bio": "Product Manager at Tech Corp.",
+   
+      "location": "San Francisco, CA",
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "coverPhoto": "https://via.placeholder.com/1200x300"
+   
+     }
+   
+    ],
+   
+    "posts": [
+   
+     {
+   
+      "id": 1,
+   
+      "userId": 1,
+   
+      "content": "This is my first post! Excited to be here.",
+   
+      "image": "https://via.placeholder.com/500x300",
+      "timestamp": "2024-12-29T12:34:00Z",
+   
+      "comments": [
+   
+       {
+   
+        "id": 1,
+   
+        "userId": 2,
+   
+        "content": "Welcome to the platform, John!",
+   
+        "timestamp": "2024-12-29T12:34:00Z"
+   
+       },
+   
+       {
+   
+        "id": 2,
+   
+        "userId": 3,
+   
+        "content": "Great post! Looking forward to more updates.",
+   
+        "timestamp": "2024-12-29T13:00:00Z"
+   
+       }
+   
+      ]
+   
+     },
+   
+     {
+   
+      "id": 2,
+   
+      "userId": 1,
+   
+      "content": "Loving the new updates in the React world.",
+   
+      "image": "https://via.placeholder.com/500x300",
+      "timestamp": "2024-12-29T12:34:00Z",
+   
+      "comments": [
+   
+       {
+   
+        "id": 1,
+   
+        "userId": 3,
+   
+        "content": "React is amazing, can't wait for the next release!",
+   
+        "timestamp": "2024-12-29T14:00:00Z"
+   
+       },
+   
+       {
+   
+        "id": 2,
+   
+        "userId": 4,
+   
+        "content": "React has truly changed the front-end game.",
+   
+        "timestamp": "2024-12-29T14:15:00Z"
+   
+       }
+   
+      ]
+   
+     },
+   
+     {
+   
+      "id": 3,
+   
+      "userId": 2,
+   
+      "content": "Creative ideas are flowing today!",
+   
+      "image": "https://via.placeholder.com/500x300",
+      "timestamp": "2024-12-29T12:34:00Z",
+   
+      "comments": [
+   
+       {
+   
+        "id": 1,
+   
+        "userId": 1,
+   
+        "content": "Sounds exciting! What are you working on?",
+   
+        "timestamp": "2024-12-29T15:00:00Z"
+   
+       },
+   
+       {
+   
+        "id": 2,
+   
+        "userId": 3,
+   
+        "content": "Would love to see your designs!",
+   
+        "timestamp": "2024-12-29T15:30:00Z"
+   
+       }
+   
+      ]
+   
+     },
+   
+     {
+   
+      "id": 4,
+   
+      "userId": 2,
+   
+      "content": "Working on a new design project.",
+   
+      "image": "https://via.placeholder.com/500x300",
+      "timestamp": "2024-12-29T12:34:00Z",
+   
+      "comments": []
+   
+     },
+   
+     {
+   
+      "id": 5,
+   
+      "userId": 3,
+   
+      "content": "Investing in new startups, always looking for the next big idea.",
+   
+      "image": "https://via.placeholder.com/500x300",
+   
+      "comments": [
+   
+       {
+   
+        "id": 1,
+   
+        "userId": 1,
+   
+        "content": "That sounds interesting! Keep us updated.",
+   
+        "timestamp": "2024-12-29T16:30:00Z"
+   
+       },
+   
+       {
+   
+        "id": 2,
+   
+        "userId": 4,
+   
+        "content": "Best of luck! The startup world is exciting.",
+   
+        "timestamp": "2024-12-29T16:45:00Z"
+   
+       }
+   
+      ]
+   
+     },
+   
+     {
+   
+      "id": 6,
+   
+      "userId": 4,
+   
+      "content": "Excited for the upcoming product launch!",
+   
+      "image": "https://via.placeholder.com/500x300",
+   
+      "comments": [
+   
+       {
+   
+        "id": 1,
+   
+        "userId": 1,
+   
+        "content": "Product launches are always thrilling! What's new?",
+   
+        "timestamp": "2024-12-29T17:30:00Z"
+   
+       },
+   
+       {
+   
+        "id": 2,
+   
+        "userId": 2,
+   
+        "content": "Good luck with the launch! I know it'll be a hit.",
+   
+        "timestamp": "2024-12-29T17:45:00Z"
+   
+       }
+   
+      ]
+   
+     }
+   
+    ],
+   
+    "photos": [
+   
+     {
+   
+      "id": 1,
+   
+      "userId": 1,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 2,
+   
+      "userId": 1,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 3,
+   
+      "userId": 1,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 4,
+   
+      "userId": 2,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 5,
+   
+      "userId": 2,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 6,
+   
+      "userId": 2,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 7,
+   
+      "userId": 3,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 8,
+   
+      "userId": 3,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 9,
+   
+      "userId": 3,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 10,
+   
+      "userId": 4,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     },
+   
+     {
+   
+      "id": 11,
+   
+      "userId": 4,
+   
+      "url": "https://via.placeholder.com/300"
+   
+     }
+   
+    ],
+   
+    "friends": [
+   
+     {
+   
+      "id": 1,
+   
+      "userId": 1,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "Jane Smith"
+   
+     },
+   
+     {
+   
+      "id": 2,
+   
+      "userId": 1,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "Mike Jones"
+   
+     },
+   
+     {
+   
+      "id": 3,
+   
+      "userId": 2,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "John Doe"
+   
+     },
+   
+     {
+   
+      "id": 4,
+   
+      "userId": 2,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "Mike Jones"
+   
+     },
+   
+     {
+   
+      "id": 5,
+   
+      "userId": 3,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "John Doe"
+   
+     },
+   
+     {
+   
+      "id": 6,
+   
+      "userId": 3,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "Jane Smith"
+   
+     },
+   
+     {
+   
+      "id": 7,
+   
+      "userId": 4,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "John Doe"
+   
+     },
+   
+     {
+   
+      "id": 8,
+   
+      "userId": 4,
+   
+      "profilePicture": "https://via.placeholder.com/150",
+   
+      "name": "Mike Jones"
+   
+     }
+   
+    ]
+   
+   }

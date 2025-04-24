@@ -1,0 +1,170 @@
+.navv {
+  font-family: Aerial !important;
+  background-color: white;
+
+  font-size: 14px;
+}
+
+.navvv {
+  display: flex;
+  margin-left: 300px;
+}
+
+.Bgimage {
+  background-image: url("./fbbg.jpg");
+}
+
+.main-content {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 2em;
+  height: 500px;
+  align-items: center;
+}
+
+.hero-section {
+  flex: 3;
+
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+
+  max-width: 600px;
+}
+
+.info-box {
+  flex: 1;
+
+  padding: 1em;
+
+  /* background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+
+  border-radius: 8px;
+  margin-right: 200px;
+  height: 230px;
+}
+
+.connect-us {
+}
+
+.login-button,
+.new-user-link {
+  display: block;
+
+  margin-top: 0.5em;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  color: #fff;
+
+  background-color: #374c57;
+
+  padding: 0.5em;
+
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 50%;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+
+  background-color: #f9f9f9;
+}
+
+h4 {
+  text-align: center;
+}
+.listdiv {
+  height: 400px;
+
+  background: rgb(166, 175, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(166, 175, 177, 1) 30%,
+    rgba(215, 144, 173, 1) 84%
+  );
+  border-radius: 50px;
+  margin: 0px 150px 0px 150px;
+}
+.cadiv {
+  margin: 20px 250px 50px 250px;
+  /* background: rgb(166,175,177);
+  background: linear-gradient(0deg, rgba(166,175,177,1) 20%, rgba(135,222,218,1) 80%); */
+  background: rgb(166, 175, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(166, 175, 177, 1) 30%,
+    rgba(215, 144, 173, 1) 84%
+  );
+
+  height: max-content;
+  width: 50% !important;
+  border-radius: 50px;
+}
+
+.ftcon {
+  background-color: transparent;
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+}
+.ftconotp {
+  background-color: transparent;
+  height: 500px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.caf {
+  padding: 15px 50px;
+}
+
+.grad {
+  background: rgb(166, 175, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(166, 175, 177, 1) 30%,
+    rgba(215, 144, 173, 1) 84%
+  );
+}
+
+.message-block {
+  margin-top: 20px;
+
+  padding: 10px;
+
+  border: 1px solid #4caf50;
+
+  background-color: #dff0d8;
+
+  color: #3c763d;
+
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.message-block.error {
+  border-color: #f44336;
+
+  background-color: #fdecea;
+
+  color: #d32f2f;
+}
