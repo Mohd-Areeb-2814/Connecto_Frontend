@@ -1,6 +1,6 @@
 # Connecto
 
-A React-based frontend application for like Facebook.
+A React-based frontend application like Facebook.
 
 ##  Install Dependencies
 
