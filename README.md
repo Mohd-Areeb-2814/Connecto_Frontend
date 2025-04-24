@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Connecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based frontend application for like Facebook.
+
+##  Install Dependencies
+
+After cloning the repository, navigate into the project directory and run:
+
+### `npm install react-bootstrap bootstrap @mui/material @emotion/react @emotion/styled @mui/icons-material react-icons react-router-dom axios`
+
+This command installs all the required packages for the application to run.
 
 ## Available Scripts
 
